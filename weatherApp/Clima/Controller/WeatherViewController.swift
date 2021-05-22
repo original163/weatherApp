@@ -1,7 +1,3 @@
-// MARK: test_comit
-
-
-
 
 import UIKit
 
@@ -23,7 +19,6 @@ class WeatherViewController: UIViewController, UITextFieldDelegate, WeatherManag
             searchTextField.delegate = self
     }
        
-// fix bug 1
         
     @IBAction func searchPressed(_ sender: UIButton) {
         searchTextField.endEditing(true)
@@ -63,11 +58,8 @@ class WeatherViewController: UIViewController, UITextFieldDelegate, WeatherManag
     func didFailWithError(error: Error) {
         print(error)
     }
-
-    
 }
 
-// testComit2
 
-// testComit3 upload to AppStore
+
 
